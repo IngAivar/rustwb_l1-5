@@ -1,0 +1,9 @@
+[package]
+name = "rustwb_l1-5"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+flume = "0.11.0"
+tokio = { version = "1.40.0", features = ["full"] }
+tokio-signal = "0.2.9"
